@@ -12,6 +12,10 @@ const App = () => {
   return (
     <div className="ui container comments">
       <ApprovalCard>
+        <h2>Warning!</h2>
+        <p>Are you sure?</p>
+      </ApprovalCard>
+      <ApprovalCard>
         <CommentDetail
           author="Sam"
           timeAgo="Today at 4:45PM"
